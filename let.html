@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <title>document</title>
+</head>
+
+<body>
+    <button onclick="SumOfNumbers()">click for addition</button>
+    <p id="run"></p>
+    <script>
+        function SumOfNumbers() {
+            let x = parseInt(prompt("give the value of x:"))
+            let y = parseInt(prompt("give the value of y:"))
+            let z = x + y;
+            document.getElementById("run").innerHTML = "the addition is" + z;
+        }
+    </script>
+</body>
+
+</html>
